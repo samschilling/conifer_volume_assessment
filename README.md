@@ -5,9 +5,16 @@ The code was designed using the lidR extension package (Roussel et al., 2020), i
 
 The code consits of three R-scripts. The "Basic Script" contains the base code where only a point cloud (.las) and a perimeter of the study area (.shp) has to be loaded and then the standing timber volume in cubicfeet is calculated. The "single tree validation" script validates the results with a sample of single trees that has to be provided. The validation sample requires the measured trees to have a XY-position, a measurement of the diameter at breast height (DBH) and the total height of every tree within the sample. Finally the "stand validation" script compares the data with a volume estimation that was made using the point sample method according to the   Forest Service Handbook of the U.S. Forest Service (FSH 2409.12 Timber Cruising Handbook, Amendment No. 2409.12-2000-6). The validation data has to be provided. 
 
+
+
 02.02.2023, Samuel Schilling
 
+
+
 References:
+
+
+
 Roussel, J.-R. et al. (2020). “lidR: An R package for analysis of Airborne Laser Scanning (ALS) data”. In: Remote Sensing of Environment 251. Publisher: Elsevier, 
 Article Number: 112061. issn: 0034-4257. doi: 10.1016/j.rse.2020.112061.
 
